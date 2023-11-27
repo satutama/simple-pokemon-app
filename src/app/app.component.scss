@@ -1,0 +1,38 @@
+:host {
+  display: block;
+  height: 100%;
+}
+
+.navigation {
+  border: 1px solid black;
+  padding: 0 12px;
+}
+
+.body-container {
+  display: grid;
+  grid-template-columns: 1fr 2fr;
+  grid-gap: 12px;
+  border: 1px solid black;
+  border-collapse: collapse;
+  padding: 8px;
+
+  .left-side-container,
+  .main {
+    border: 1px solid black;
+    padding: 8px;
+  }
+
+  ul {
+    padding-inline-start: 0;
+    list-style-type: none;
+  }
+
+  li {
+    border: 1px solid black;
+    margin-bottom: 5px;
+  }
+}
+
+footer {
+  border: 1px solid black;
+}

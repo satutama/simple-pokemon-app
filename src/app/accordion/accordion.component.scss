@@ -1,0 +1,14 @@
+.uncollapsed {
+  height: 100px;
+  display: visible;
+}
+
+.collapsed {
+  height: 0px;
+  visibility: hidden;
+}
+
+.header {
+  background-color: lightgreen;
+  padding: 8px;
+}

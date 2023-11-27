@@ -1,0 +1,7 @@
+<div class="header" (click)="toggle()">
+  {{ pokemon.name }}
+</div>
+
+<div class="body" class="uncollapsed" [class.collapsed]="collapsed">
+  <img src="{{ pokemon.imageUrl }}" alt="pokemonImage" />
+</div>
